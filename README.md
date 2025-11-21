@@ -47,37 +47,6 @@ This portfolio showcases my professional experience, skills, and projects as a F
 - **[@types/aos](https://www.npmjs.com/package/@types/aos)** (v3.0.7) - TypeScript definitions for AOS
 - **[@types/node](https://www.npmjs.com/package/@types/node)** (v22.18.11) - TypeScript definitions for Node.js
 
-## 📂 Project Structure
-
-```
-portfolio-website/
-├── public/                 # Static assets
-├── src/
-│   ├── assets/            # Images, styles, and other assets
-│   │   ├── images/        # Profile photo and project images
-│   │   └── main.css       # Global styles and TailwindCSS imports
-│   ├── components/        # Vue components
-│   │   ├── AboutSection.vue
-│   │   ├── ContactSection.vue
-│   │   ├── ExperienceSection.vue
-│   │   ├── HeroSection.vue
-│   │   ├── LanguageSwitcher.vue
-│   │   ├── ProjectsSection.vue
-│   │   └── SkillsSection.vue
-│   ├── i18n/              # Internationalization
-│   │   ├── locales/       # Translation files
-│   │   │   ├── en.ts      # English translations
-│   │   │   └── pt.ts      # Portuguese translations
-│   │   └── index.ts       # i18n configuration
-│   ├── App.vue            # Root component
-│   └── main.ts            # Application entry point
-├── index.html             # HTML template
-├── package.json           # Project dependencies
-├── tsconfig.json          # TypeScript configuration
-├── vite.config.ts         # Vite configuration
-└── README.md              # Project documentation
-```
-
 ## 🛠️ Installation & Setup
 
 ### Prerequisites
@@ -89,7 +58,7 @@ portfolio-website/
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/fernandorogelin/portfolio.git
+   git clone https://github.com/fernandorogelin/portfolio-website.git
    ```
 
 2. Navigate to the project directory
@@ -109,25 +78,13 @@ Run the development server with hot-reload:
 npm run dev
 ```
 
-The application will be available at `http://localhost:5173`
+The application will be available at `http://localhost:3000`
 
 ### Production Build
 
 Build the project for production:
 ```sh
 npm run build
-```
-
-Preview the production build locally:
-```sh
-npm run preview
-```
-
-### Type Checking
-
-Run TypeScript type checking:
-```sh
-npm run type-check
 ```
 
 ## 🌍 Internationalization
@@ -137,47 +94,6 @@ The portfolio supports two languages:
 - **Portuguese (PT)** - Brazilian Portuguese
 
 Language preference is saved in localStorage and persists across sessions. Users can switch languages using the toggle button in the top-right corner of the page.
-
-## 📱 Sections
-
-### Hero Section
-- Profile photo with gradient animation
-- Professional title and description
-- Social media links (LinkedIn, GitHub, Twitter, Instagram, Facebook, Steam)
-- Call-to-action button
-
-### About Section
-- Professional introduction
-- Background and experience overview
-- Career highlights
-
-### Experience Section
-- Timeline-based layout
-- Work experience at Deskbee and Usabit
-- Key achievements and responsibilities
-- Company details and locations
-
-### Skills Section
-- Categorized technical skills
-- 8 categories including:
-  - Languages
-  - Frontend
-  - Backend
-  - Databases
-  - Cloud & DevOps
-  - Tools & Others
-  - Mobile
-  - Currently Learning
-
-### Projects Section
-- Featured projects showcase
-- Project descriptions and technologies used
-- Live demo and GitHub repository links
-
-### Contact Section
-- Email contact button
-- Social media links
-- Copyright footer
 
 ## 🎨 Design Features
 
@@ -191,17 +107,5 @@ Language preference is saved in localStorage and persists across sessions. Users
 ## 📄 License
 
 This project is open source and available for personal and educational use.
-
-## 📞 Contact
-
-Fernando Rogelin - [fernando.rogelin@hotmail.com](mailto:fernando.rogelin@hotmail.com)
-
-Portfolio Website: [fernandorogelin.com](https://fernandorogelin.com)
-
-LinkedIn: [fernando-rogelin](https://www.linkedin.com/in/fernando-rogelin/)
-
-GitHub: [@fernandorogelin](https://github.com/fernandorogelin)
-
----
 
 ⭐ If you like this project, please give it a star on GitHub!
