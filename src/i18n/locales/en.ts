@@ -1,13 +1,13 @@
 export default {
   hero: {
     title: 'Fernando Rogelin',
-    position: 'Senior Front-end Engineer',
+    position: 'Frontend Software Engineer',
     description: 'Building exceptional web experiences since 2019 with modern technologies and best practices',
     cta: 'Get In Touch',
   },
   about: {
     title: 'About Me',
-    paragraph1: "I'm a Senior Front-end Engineer based in Porto Alegre, Brazil, with over 6 years of experience building high-performance web applications. I'm passionate about creating exceptional user experiences and writing clean, maintainable code.",
+    paragraph1: "I'm a Frontend Software Engineer based in Porto Alegre, Brazil, with over 6 years of experience building high-performance web applications. I'm passionate about creating exceptional user experiences and writing clean, maintainable code.",
     paragraph2: "Throughout my career, I've worked with startups and established companies, leading development teams, mentoring junior developers, and delivering projects that make a real impact. I specialize in modern JavaScript frameworks, with deep expertise in React and Vue ecosystems.",
     paragraph3: "I'm committed to continuous learning and staying up-to-date with the latest web technologies, best practices, and performance optimization techniques. I believe in writing code that not only works but is also scalable, testable, and maintainable.",
   },
@@ -17,20 +17,21 @@ export default {
     companies: {
       deskbee: {
         name: 'Deskbee',
-        position: 'Senior Front-end Engineer',
+        position: 'Frontend Software Engineer',
         period: 'Jan 2024 - PRESENT',
         location: 'Porto Alegre - RS',
         achievements: [
           'Architect and develop new features, consistently translating business requirements into clean, efficient code',
           'Change build tool Webpack to Vite reducing build time on pipeline by 50%',
-          'Created E2E tests using PlayWright, reducing regression testing time by 5 hours',
+          'Created E2E tests using PlayWright, reducing regression testing time by 5+ hours',
           'Built a comprehensive Design System in collaboration with UX/UI team, standardizing 20+ reusable components',
           'Implemented error monitoring with Datadog and Grafana Faro, identifying and resolving critical bugs',
+          'Leveraged AI-assisted development with spec-driven methodology, increasing feature delivery and bug resolution efficiency by 50%',
         ],
       },
       usabit: {
         name: 'Usabit',
-        position: 'Senior Front-end Engineer',
+        position: 'Frontend Software Engineer',
         period: 'Mar 2022 - Jan 2024',
         location: 'Rio de Janeiro - RJ',
         achievements: [

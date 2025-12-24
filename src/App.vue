@@ -22,12 +22,21 @@ onMounted(() => {
 <template>
   <div class="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
     <LanguageSwitcher />
-    <HeroSection />
-    <AboutSection />
-    <ExperienceSection />
-    <SkillsSection />
-    <ProjectsSection />
-    <ContactSection />
+
+    <header>
+      <HeroSection />
+    </header>
+
+    <main>
+      <AboutSection />
+      <ExperienceSection />
+      <SkillsSection />
+      <ProjectsSection />
+    </main>
+
+    <footer>
+      <ContactSection />
+    </footer>
   </div>
 </template>
 

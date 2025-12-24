@@ -1,13 +1,13 @@
 export default {
   hero: {
     title: 'Fernando Rogelin',
-    position: 'Engenheiro Front-end Sênior',
+    position: 'Engenheiro de Software Frontend',
     description: 'Construindo experiências web excepcionais desde 2019 com tecnologias modernas e melhores práticas',
     cta: 'Entre em Contato',
   },
   about: {
     title: 'Sobre Mim',
-    paragraph1: 'Sou um Engenheiro Front-end Sênior baseado em Porto Alegre, Brasil, com mais de 6 anos de experiência construindo aplicações web de alta performance. Sou apaixonado por criar experiências de usuário excepcionais e escrever código limpo e sustentável.',
+    paragraph1: 'Sou um Engenheiro de Software Frontend baseado em Porto Alegre, Brasil, com mais de 6 anos de experiência construindo aplicações web de alta performance. Sou apaixonado por criar experiências de usuário excepcionais e escrever código limpo e sustentável.',
     paragraph2: 'Ao longo da minha carreira, trabalhei com startups e empresas estabelecidas, liderando equipes de desenvolvimento, mentorando desenvolvedores júnior e entregando projetos que causam um impacto real. Sou especialista em frameworks JavaScript modernos, com profunda experiência nos ecossistemas React e Vue.',
     paragraph3: 'Estou comprometido com o aprendizado contínuo e me manter atualizado com as últimas tecnologias web, melhores práticas e técnicas de otimização de performance. Acredito em escrever código que não apenas funciona, mas também é escalável, testável e sustentável.',
   },
@@ -17,20 +17,21 @@ export default {
     companies: {
       deskbee: {
         name: 'Deskbee',
-        position: 'Engenheiro Front-end Sênior',
+        position: 'Engenheiro de Software Frontend',
         period: 'Jan 2024 - ATUAL',
         location: 'Porto Alegre - RS',
         achievements: [
           'Arquiteto e desenvolvo novas funcionalidades, traduzindo consistentemente requisitos de negócio em código limpo e eficiente',
           'Mudei a ferramenta de build de Webpack para Vite reduzindo o tempo de build no pipeline em 50%',
-          'Criei testes E2E usando PlayWright, reduzindo o tempo de teste de regressão em 5 horas',
+          'Criei testes E2E usando PlayWright, reduzindo o tempo de teste de regressão em 5+ horas',
           'Construí um Design System abrangente em colaboração com a equipe de UX/UI, padronizando mais de 20 componentes reutilizáveis',
           'Implementei monitoramento de erros com Datadog e Grafana Faro, identificando e resolvendo bugs críticos',
+          'Utilizei desenvolvimento assistido por IA com metodologia orientada a especificações, aumentando a eficiência na entrega de funcionalidades e resolução de bugs em 50%',
         ],
       },
       usabit: {
         name: 'Usabit',
-        position: 'Engenheiro Front-end Sênior',
+        position: 'Engenheiro de Software Frontend',
         period: 'Mar 2022 - Jan 2024',
         location: 'Rio de Janeiro - RJ',
         achievements: [
